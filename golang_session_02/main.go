@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 
-	var name string   						   // Declaring a variable
-	name="Tim"        						// Assigning a value to the variable
+	var name string						// Declaring a variable
+	name="Tim"							// Assigning a value to the variable
 
-	fmt.Printf("Type = %T\n", name)               // use the variable
+	fmt.Printf("Type = %T\n", name)		// use the variable
 	name="John"  
 	
 	fmt.Printf("Type = %T, Value = %v\n", name, name)  
@@ -49,17 +49,19 @@ func main() {
 	fmt.Println(rune1)
 	fmt.Printf("Type = %T \n", rune1)
 
+	
+	//Go Data types: -
 
-	//Data types
-
-	// byte, rune, 
-	// int, int8, int16, int32, int64, 
-	// uint, uint8, uint16, uint32, uint64, uintptr
-	// float32, float64, 
-	// complex64, complex128, 
-	// string, 
 	// bool
-
+	// string
+	// Numeric Types
+	// 				byte, rune
+	// 				int, int8, int16, int32, int64
+	// 				uint, uint8, uint16, uint32, uint64, uintptr
+	// 				float32, float64
+	// 				complex64, complex128
+	
+	
 	const pi = 3.14159
 	fmt.Println(pi)
 

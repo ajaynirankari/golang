@@ -9,7 +9,7 @@
 ## The Go Standard library or packages : https://pkg.go.dev/std
 
 
-# Visual Studio Code: Extension
+### Visual Studio Code: Extension
 
 ```
 - Open all command -> Ctrl + Shift + P
